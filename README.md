@@ -3,7 +3,7 @@
 A macOS launchctl wrapper to run Kanata(keyboard remapper) on startup/load as a daemon.
 This is a fork of [katana-service](https://github.com/DivitMittal/kanata-service)
 to adapt it:
-- use /bin/sh instead of dash
+- use bash instead of dash
 - create a binary for the launch command, to avoid the ambiguous "sudo" in Login Items.
 
 
